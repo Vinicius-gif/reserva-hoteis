@@ -15,7 +15,9 @@
         "plugin:react/recommended",
         "plugin:react-hooks/recommended",
         "plugin:jest/recommended",
-        "next/core-web-vitals"
+        "next/core-web-vitals",
+        "plugin:prettier/recommended",
+        "prettier"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -32,6 +34,7 @@
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
         "react/react-in-jsx-scope": "off",
+        "prettier/prettier": "error",
         "indent": [
             "error",
             2
