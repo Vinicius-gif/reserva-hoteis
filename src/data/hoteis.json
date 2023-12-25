@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "nome": "Hotel A",
+    "imagens": ["imagem1.jpg", "imagem2.jpg"],
+    "categoria": "Luxo",
+    "avaliacao": 4.5,
+    "descricao": "Um hotel de luxo com vistas deslumbrantes.",
+    "localizacao": "Cidade X, Estado",
+    "preco": 300.0,
+    "estrelas": 5,
+    "piscina": true,
+    "wifi": true,
+    "ar_condicionado": true,
+    "estacionamento": true,
+    "vista_para_o_mar": true,
+    "aceita_animais": false
+  },
+  {
+    "id": 2,
+    "nome": "Hotel B",
+    "imagens": ["imagem1.jpg", "imagem2.jpg"],
+    "categoria": "Luxo",
+    "avaliacao": 4.5,
+    "descricao": "Um hotel de luxo com vistas deslumbrantes.",
+    "localizacao": "Cidade X, Estado",
+    "preco": 300.0,
+    "estrelas": 5,
+    "piscina": true,
+    "wifi": true,
+    "ar_condicionado": true,
+    "estacionamento": true,
+    "vista_para_o_mar": true,
+    "aceita_animais": false
+  }
+]
