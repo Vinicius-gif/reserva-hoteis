@@ -2,7 +2,7 @@
   {
     "id": 1,
     "nome": "Hotel A",
-    "imagens": ["imagem1.jpg", "imagem2.jpg"],
+    "imagens": ["/img/hoteis/hotel-1.jpeg"],
     "avaliacao": 4.5,
     "descricao": "Um hotel de luxo com vistas deslumbrantes.",
     "localizacao": "Cidade X, Estado",
