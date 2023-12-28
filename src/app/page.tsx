@@ -1,12 +1,10 @@
-import Image from 'next/image';
-
-import hoteis from '../data/hoteis.json';
+import BannerHome from '../components/bannerHome';
 
 export default function Home() {
   return (
     <main>
-      Helo World!
-      <Image src={hoteis[0].imagens[0]} alt="hotel" width={100} height={100} />
+      <h2>Titulo</h2>
+      <BannerHome />
     </main>
   );
 }
