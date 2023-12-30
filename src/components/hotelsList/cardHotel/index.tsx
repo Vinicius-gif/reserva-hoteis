@@ -1,44 +1,57 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
+import {
+  FaSwimmingPool,
+  FaWifi,
+  FaRegSnowflake,
+  FaCar,
+  FaDog
+} from 'react-icons/fa';
+import { GiAtSea } from 'react-icons/gi';
 
 interface Props {
   name: string;
   image: string;
   location: string;
+  describe: string;
   rating: number;
+  stars: number;
   price: number;
+  pool: boolean;
+  wifi: boolean;
+  air: boolean;
+  park: boolean;
+  sea: boolean;
+  animals: boolean;
 }
 
-const CardHotel = ({ name, image, location, rating, price }: Props) => {
+const CardHotel = (props: Props) => {
   return (
-    <div className="max-w-md mx-auto my-4 bg-white rounded-lg overflow-hidden shadow-md">
-      <div className="relative h-48 overflow-hidden">
-        <img
-          className="w-full h-full object-cover object-center transform scale-110 transition-transform duration-500 hover:scale-100"
-          src={image}
-          alt={name}
-        />
+    <div className="flex max-w-4xl max-h-60 mx-auto my-8 bg-white rounded-lg overflow-hidden shadow-md">
+      <div className="w-1/3 h-full">
+        <img src={props.image} alt="Imagem de hotel" className="" />
       </div>
-      <div className="p-4">
-        <h2 className="text-2xl font-semibold mb-2">{name}</h2>
-        <p className="text-gray-600 mb-2">{location}</p>
-        <div className="flex items-center mb-2">
-          <span className="text-yellow-500 mr-1">
-            {Array.from({ length: Math.floor(rating) }, (_, index) => (
-              <svg
-                key={index}
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                className="h-5 w-5 inline-block"
-                viewBox="0 0 24 24"
-              >
-                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h-1v1H8v-1H7c-1.11 0-2-.89-2-2v-1.35l4-3.22 4 3.22V14c0 1.11-.89 2-2 2zm1-8c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-1-9h-2v6h2z" />
-              </svg>
-            ))}
-          </span>
-          <span className="text-gray-600">{rating.toFixed(1)}</span>
+      <div className="w-2/3 mx-6 pt-3 pr-2 border-r">
+        <h2>{props.name}</h2>
+        <p>{props.location}</p>
+        <div className="flex gap-2">
+          <p>{props.rating}</p>
+          <p>{props.stars}</p>
+          <ul className="flex justify-around items-center gap-2">
+            {props.pool && <FaSwimmingPool />}
+            {props.wifi && <FaWifi />}
+            {props.air && <FaRegSnowflake />}
+            {props.park && <FaCar />}
+            {props.sea && <GiAtSea />}
+            {props.animals && <FaDog />}
+          </ul>
         </div>
-        <p className="text-lg font-semibold text-blue-500">${price}/noite</p>
+        <p>{props.describe}</p>
+      </div>
+      <div className="ml-2 w-1/5 pt-6">
+        <p>Preço por noite</p>
+        <p>R$: {props.price}</p>
+        <button>Ver detalhes</button>
       </div>
     </div>
   );
