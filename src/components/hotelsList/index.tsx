@@ -17,6 +17,14 @@ const HotelsList = () => {
           image={hotel.imagens[0]}
           location={hotel.localizacao}
           rating={hotel.avaliacao}
+          air={hotel.ar_condicionado}
+          animals={hotel.aceita_animais}
+          describe={hotel.descricao}
+          park={hotel.estacionamento}
+          pool={hotel.piscina}
+          sea={hotel.vista_para_o_mar}
+          stars={hotel.estrelas}
+          wifi={hotel.wifi}
         />
       ))}
     </div>
