@@ -18,7 +18,7 @@
   {
     "id": 2,
     "nome": "Hotel B",
-    "imagens": ["imagem1.jpg", "imagem2.jpg"],
+    "imagens": ["/img/hoteis/hotel-2.jpeg"],
     "avaliacao": 4.5,
     "descricao": "Um hotel de luxo com vistas deslumbrantes.",
     "localizacao": "Cidade X, Estado",
@@ -34,7 +34,7 @@
   {
     "id": 3,
     "nome": "Hotel C",
-    "imagens": ["imagem3.jpg", "imagem4.jpg"],
+    "imagens": ["/img/hoteis/hotel-3.jpeg"],
     "avaliacao": 3.8,
     "descricao": "Uma opção econômica com ótima localização.",
     "localizacao": "Cidade Y, Estado",
@@ -50,7 +50,7 @@
   {
     "id": 4,
     "nome": "Resort D",
-    "imagens": ["imagem5.jpg", "imagem6.jpg"],
+    "imagens": ["/img/hoteis/hotel-4.jpeg"],
     "categoria": "Luxo",
     "avaliacao": 4.8,
     "descricao": "Um resort de luxo com várias opções de lazer.",
@@ -67,7 +67,7 @@
   {
     "id": 5,
     "nome": "Apart-hotel E",
-    "imagens": ["imagem9.jpg", "imagem10.jpg"],
+    "imagens": ["/img/hoteis/hotel-5.jpeg"],
     "avaliacao": 4.2,
     "descricao": "Um apart-hotel com comodidades modernas.",
     "localizacao": "Cidade M, Estado",
@@ -83,7 +83,7 @@
   {
     "id": 6,
     "nome": "Resort F",
-    "imagens": ["imagem11.jpg", "imagem12.jpg"],
+    "imagens": ["/img/hoteis/hotel-6.jpeg"],
     "avaliacao": 4.7,
     "descricao": "Um resort de luxo com spa e vista panorâmica.",
     "localizacao": "Cidade P, Estado",
@@ -99,7 +99,7 @@
   {
     "id": 7,
     "nome": "Hostel G",
-    "imagens": ["imagem13.jpg", "imagem14.jpg"],
+    "imagens": ["/img/hoteis/hotel-7.jpeg"],
     "avaliacao": 3.5,
     "descricao": "Um hostel vibrante com atividades sociais.",
     "localizacao": "Cidade R, Estado",
