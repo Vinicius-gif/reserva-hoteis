@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "nome": "Hotel A",
     "imagens": ["/img/hoteis/hotel-1.jpeg"],
     "avaliacao": 4.5,
@@ -16,7 +16,7 @@
     "aceita_animais": false
   },
   {
-    "id": 2,
+    "id": "2",
     "nome": "Hotel B",
     "imagens": ["/img/hoteis/hotel-2.jpeg"],
     "avaliacao": 4.5,
@@ -32,7 +32,7 @@
     "aceita_animais": false
   },
   {
-    "id": 3,
+    "id": "3",
     "nome": "Hotel C",
     "imagens": ["/img/hoteis/hotel-3.jpeg"],
     "avaliacao": 3.8,
@@ -48,7 +48,7 @@
     "aceita_animais": true
   },
   {
-    "id": 4,
+    "id": "4",
     "nome": "Resort D",
     "imagens": ["/img/hoteis/hotel-4.jpeg"],
     "categoria": "Luxo",
@@ -65,7 +65,7 @@
     "aceita_animais": false
   },
   {
-    "id": 5,
+    "id": "5",
     "nome": "Apart-hotel E",
     "imagens": ["/img/hoteis/hotel-5.jpeg"],
     "avaliacao": 4.2,
@@ -81,7 +81,7 @@
     "aceita_animais": false
   },
   {
-    "id": 6,
+    "id": "6",
     "nome": "Resort F",
     "imagens": ["/img/hoteis/hotel-6.jpeg"],
     "avaliacao": 4.7,
@@ -97,7 +97,7 @@
     "aceita_animais": false
   },
   {
-    "id": 7,
+    "id": "7",
     "nome": "Hostel G",
     "imagens": ["/img/hoteis/hotel-7.jpeg"],
     "avaliacao": 3.5,
