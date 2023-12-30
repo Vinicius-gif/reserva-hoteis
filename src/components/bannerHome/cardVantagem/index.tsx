@@ -20,7 +20,7 @@ const CardVantagem = ({ describe, icon }: Props) => {
   }
 
   return (
-    <div className="flex items-center justify-center bg-blue-700 p-4 md:p-6 rounded-xl md:h-36">
+    <div className="flex items-center justify-center bg-blue-700 md:p-4 p-6 rounded-xl md:text-sm h-36">
       {renderedIcon && <span className="mr-2 text-white">{renderedIcon}</span>}
       <p className="ml-2 text-white text-base md:text-base lg:text-lg sm:text-sm">
         {describe}

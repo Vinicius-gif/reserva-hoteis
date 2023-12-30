@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { FiMapPin, FiCalendar, FiSearch } from 'react-icons/fi'; // Importe os ícones necessários
+import { FiMapPin, FiCalendar, FiSearch } from 'react-icons/fi';
 
 // Componente do formulário de pesquisa de reserva de hotéis
 const FormDestino = () => {
@@ -10,7 +10,7 @@ const FormDestino = () => {
   const [checkOutDate, setCheckOutDate] = useState('');
 
   // Função para lidar com a submissão do formulário
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
     console.log('Local:', location);
@@ -20,12 +20,12 @@ const FormDestino = () => {
 
   return (
     <div className="w-full p-3 bg-blue-400">
-      <div className="max-w-5xl mx-auto my-4 p-6 bg-white rounded shadow-md md:flex md:items-center md:justify-around">
+      <div className="max-w-5xl md:max-w-2xl mx-auto my-4 p-6 bg-white rounded shadow-md flex items-center justify-around">
         <form
           onSubmit={handleSubmit}
-          className="w-full md:w-auto md:mx-4 md:flex md:items-center md:justify-around gap-4"
+          className="w-full mx-4 flex items-center justify-around gap-4 md:flex-col"
         >
-          <div className="relative mb-4">
+          <div className="relative mb-4 md:w-2/3">
             <label
               htmlFor="location"
               className="block text-sm font-medium text-gray-600"
@@ -48,7 +48,7 @@ const FormDestino = () => {
           <div className="relative mb-4 flex items-center">
             <label
               htmlFor="checkInDate"
-              className="block text-sm font-medium text-gray-600"
+              className="block text-sm font-medium text-gray-600 sm:hidden"
             >
               <FiCalendar className="mr-2 text-gray-500" />
               Data de Entrada
@@ -72,7 +72,7 @@ const FormDestino = () => {
           </div>
           <button
             type="submit"
-            className="bg-blue-500 text-white p-2 rounded-md flex items-center hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue"
+            className="bg-blue-500 md:w-1/2 text-white p-2 rounded-md flex items-center hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue"
           >
             <FiSearch className="mr-2" />
             Pesquisar
