@@ -1,7 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 
-import CardHotel from '../../../components/hotelsList/cardHotel';
+import FormDestino from '../../../components/formDestino';
 import hotels from '../../../data/hoteis.json';
+import CardDetalhes from './components/cardDetalhes';
 
 const DetalhesHotel = ({ params }: { params: { id: string } }) => {
   const hotel = hotels.find((hotel) => hotel.id === params.id);
@@ -14,42 +16,21 @@ const DetalhesHotel = ({ params }: { params: { id: string } }) => {
     );
   }
 
-  const {
-    nome,
-    id,
-    imagens,
-    avaliacao,
-    descricao,
-    localizacao,
-    preco,
-    estrelas,
-    piscina,
-    wifi,
-    ar_condicionado,
-    estacionamento,
-    vista_para_o_mar,
-    aceita_animais
-  } = hotel;
+  const { nome, id, avaliacao, localizacao, preco, estrelas } = hotel;
 
   return (
     <div className="">
-      <CardHotel
-        key={id}
-        id={id}
-        name={nome}
-        price={preco}
-        image={imagens[0]}
-        location={localizacao}
-        rating={avaliacao}
-        air={ar_condicionado}
-        animals={aceita_animais}
-        describe={descricao}
-        park={estacionamento}
-        pool={piscina}
-        sea={vista_para_o_mar}
-        stars={estrelas}
-        wifi={wifi}
-      />
+      <FormDestino />
+      <div className="w-full my-12 flex items-center justify-center">
+        <CardDetalhes
+          key={id}
+          name={nome}
+          location={localizacao}
+          stars={estrelas}
+          price={preco}
+          rating={avaliacao}
+        />
+      </div>
     </div>
   );
 };
