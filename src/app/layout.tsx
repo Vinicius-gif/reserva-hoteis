@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en" data-lt-installed={true}>
       <body className={inter.className}>
         <Header />
-        {children}
+        <main className="h-full">{children}</main>
         <Footer />
       </body>
     </html>
