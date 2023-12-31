@@ -2,7 +2,7 @@
   {
     "id": "1",
     "nome": "Hotel A",
-    "imagens": ["/img/hoteis/hotel-1.jpeg"],
+    "imagens": ["/img/hoteis/hotel-1.jpeg", "/img/hoteis/hotel-8.jpeg"],
     "avaliacao": 4.5,
     "descricao": "Um hotel de luxo com vistas deslumbrantes.",
     "localizacao": "Cidade X, Estado",
@@ -18,7 +18,7 @@
   {
     "id": "2",
     "nome": "Hotel B",
-    "imagens": ["/img/hoteis/hotel-2.jpeg"],
+    "imagens": ["/img/hoteis/hotel-2.jpeg", "/img/hoteis/hotel-9.jpeg"],
     "avaliacao": 4.5,
     "descricao": "Um hotel de luxo com vistas deslumbrantes.",
     "localizacao": "Cidade X, Estado",
@@ -34,7 +34,7 @@
   {
     "id": "3",
     "nome": "Hotel C",
-    "imagens": ["/img/hoteis/hotel-3.jpeg"],
+    "imagens": ["/img/hoteis/hotel-3.jpeg", "/img/hoteis/hotel-10.jpeg"],
     "avaliacao": 3.8,
     "descricao": "Uma opção econômica com ótima localização.",
     "localizacao": "Cidade Y, Estado",
@@ -50,7 +50,7 @@
   {
     "id": "4",
     "nome": "Resort D",
-    "imagens": ["/img/hoteis/hotel-4.jpeg"],
+    "imagens": ["/img/hoteis/hotel-4.jpeg", "/img/hoteis/hotel-11.jpeg"],
     "categoria": "Luxo",
     "avaliacao": 4.8,
     "descricao": "Um resort de luxo com várias opções de lazer.",
@@ -67,7 +67,7 @@
   {
     "id": "5",
     "nome": "Apart-hotel E",
-    "imagens": ["/img/hoteis/hotel-5.jpeg"],
+    "imagens": ["/img/hoteis/hotel-5.jpeg", "/img/hoteis/hotel-12.jpeg"],
     "avaliacao": 4.2,
     "descricao": "Um apart-hotel com comodidades modernas.",
     "localizacao": "Cidade M, Estado",
@@ -83,7 +83,7 @@
   {
     "id": "6",
     "nome": "Resort F",
-    "imagens": ["/img/hoteis/hotel-6.jpeg"],
+    "imagens": ["/img/hoteis/hotel-6.jpeg", "/img/hoteis/hotel-13.jpeg"],
     "avaliacao": 4.7,
     "descricao": "Um resort de luxo com spa e vista panorâmica.",
     "localizacao": "Cidade P, Estado",
@@ -99,7 +99,7 @@
   {
     "id": "7",
     "nome": "Hostel G",
-    "imagens": ["/img/hoteis/hotel-7.jpeg"],
+    "imagens": ["/img/hoteis/hotel-7.jpeg", "/img/hoteis/hotel-14.jpeg"],
     "avaliacao": 3.5,
     "descricao": "Um hostel vibrante com atividades sociais.",
     "localizacao": "Cidade R, Estado",
