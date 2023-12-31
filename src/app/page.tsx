@@ -4,10 +4,10 @@ import HotelsList from '../components/hotelsList';
 
 export default function Home() {
   return (
-    <main>
+    <>
       <FormDestino />
       <BannerHome />
       <HotelsList />
-    </main>
+    </>
   );
 }
